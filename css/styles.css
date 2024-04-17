@@ -88,16 +88,6 @@ spline-viewer {
   height: 100%;
 }
 
-
-
-@media screen and (max-width: 768px) {
-  .spline-viewer {
-    display: none; /* Oculta el elemento original en dispositivos móviles */
-  }
-
-  .spline-viewer-mobile {
-    display: block; /* Muestra el nuevo elemento en dispositivos móviles */
-    width: 100%;
-    height: 300px; /* Ajusta la altura según tu necesidad */
-  }
+.spline-viewer-mobile {
+  display: none;
 }
